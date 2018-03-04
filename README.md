@@ -1,5 +1,5 @@
 <h1 align='center'>react-inject2</h1>
----
+
 
 >Dependency Injection for React
 
@@ -19,7 +19,8 @@ Install
 Exmple:
 ===
 
-**`index.js`**
+- **`index.js`**
+- 
 ```js
     import React from 'react';
     import ReactDOM from 'react-dom';
@@ -46,9 +47,10 @@ Exmple:
     )
 
 
-```
+``` 
 
-**`Child.js`**
+- **`Child.js`**
+- 
 ```js
 ...
 import {zInject} from 'react-inject2';
@@ -63,8 +65,9 @@ const child=props=>(
 export default zInject(['_myMain'])(child);
 
 ```
-
-**`App.js`**
+ 
+- **`App.js`**
+- 
 
 
 ```js
@@ -87,17 +90,20 @@ export default class extends React.Component{
 
 
 ```
-You don't have to use `setState`.
+** You don't have to use `setState`.**
 
 `react-reject2` will automatic detection of changes，and call `setState`;
 
-Multipe service:
----
+<h1 align='center'>Multipe service:</h1>
 
-Inject multiple service
+
+> Inject multiple service
 
 ### Example:
-`provider.js`
+ 
+- `provider.js`
+- 
+
 ```js
 const 
 mainService={
@@ -121,7 +127,9 @@ zProvider({
 ```
 import `provider.js` in `index.js`:
 
-`index.js`
+- `index.js`
+- 
+
 
 ```js
     ...
@@ -129,9 +137,11 @@ import `provider.js` in `index.js`:
     ...
 ```
 
-OK..Now we can use it as follow.
+> OK..Now we can use it as follow.
 
-`App.js`
+
+- `App.js`
+- 
 ```js
 ...
 import {zInject} from 'react-inject2';
@@ -181,7 +191,9 @@ Only `_main` be injected;
 
 Alias Inject:
 ---
-**`app.js`**
+ 
+- **`app.js`**
+- 
 ```js
     ...
     
