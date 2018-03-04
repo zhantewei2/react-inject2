@@ -1,5 +1,11 @@
-react-inject2
+<h1 align='center'>react-inject2</h1>
 ---
+
+>Dependency Injection for React
+
+>The usage is very simple
+
+
 Install
 ---
     
@@ -8,9 +14,7 @@ Install
 
 
 
-Dependency Injection for React
 
-The usage is very simple
 
 Exmple:
 ===
