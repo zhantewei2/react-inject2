@@ -1,9 +1,9 @@
 <h1 align='center'>react-inject2</h1>
 
 
->Dependency Injection for React
+#### Dependency Injection for React
 
->The usage is very simple
+#### The usage is very simple
 
 
 Install
@@ -125,7 +125,7 @@ zProvider({
 })
 
 ```
-import `provider.js` in `index.js`:
+> import `provider.js` in `index.js`:
 
 - `index.js`
 - 
@@ -187,7 +187,7 @@ Switch Inject:
     export default zInject(['_main'])(app);
 ```
 
-Only `_main` be injected;
+> Only `_main` be injected;
 
 Alias Inject:
 ---
