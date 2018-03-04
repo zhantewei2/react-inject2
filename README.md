@@ -1,5 +1,11 @@
 react-inject2
 ---
+Install
+---
+    
+        npm install react-inject2 --save
+
+
 
 
 Dependency Injection for React
