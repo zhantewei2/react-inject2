@@ -1,0 +1,20 @@
+{
+  "name": "react-inject2",
+  "version": "1.0.3",
+  "description": "service inject for react",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "inject",
+    "service",
+    "provider"
+  ],
+  "author": "zhantewei",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0"
+  }
+}
